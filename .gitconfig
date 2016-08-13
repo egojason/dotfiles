@@ -1,0 +1,22 @@
+[user]
+    email = egojason@gmail.com
+    name = Peisheng Jiang
+
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:'%h %ad | %s%d [a%an]' --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+
+[color]
+    ui = auto
+
+[push]
+    default = simple
+
+[core]
+    autocrlf = input
+    safecrlf = true
